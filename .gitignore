@@ -1,6 +1,6 @@
 node_modules/
 .idea/
-config.json
-pool_configs/*.json
-!pool_configs/zclassic_example.json
-!pool_configs/cpuchain_example.json
+#config.json
+#pool_configs/*.json
+#!pool_configs/zclassic_example.json
+#!pool_configs/cpuchain_example.json

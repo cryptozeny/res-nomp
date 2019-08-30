@@ -1,13 +1,11 @@
 {
-    "enabled": false,
-    "coin": "susucoin.json",
+    "enabled": true,
+    "coin": "resistance.json",
 
-    "address": "",
-    "BTCover17": true,
-    "_comment_BTCover17": "If BTC 0.17 or higher, payment does not work please enable it",
+    "address": "r17nRi1jsMUPYqTMzrMThatXAth1hgFx9UZ",
 
     "rewardRecipients": {
-        "": 1.0
+        "r17nRi1jsMUPYqTMzrMThatXAth1hgFx9UZ": 1.0
     },
 
     "paymentProcessing": {
@@ -20,7 +18,7 @@
         "maxBlocksPerPayment": 3,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 8876,
+            "port": 8132,
             "user": "username",
             "password": "password"
         }
@@ -34,7 +32,7 @@
     },
 
     "ports": {
-        "3032": {
+        "4444": {
             "diff": 0.5,
             "tls": false,
             "varDiff": {
@@ -50,16 +48,16 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 8876,
+            "port": 8132,
             "user": "username",
             "password": "password"
         }
     ],
 
     "p2p": {
-        "enabled": false,
+        "enabled": true,
         "host": "127.0.0.1",
-        "port": 8877,
+        "port": 8133,
         "disableTransactions": true
     },
 
