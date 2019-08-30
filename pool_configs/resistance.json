@@ -32,7 +32,7 @@
     },
 
     "ports": {
-        "9032": {
+        "4444": {
             "diff": 0.5,
             "tls": false,
             "varDiff": {
