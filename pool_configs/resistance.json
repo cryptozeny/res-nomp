@@ -48,16 +48,16 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 8133,
+            "port": 8132,
             "user": "username",
             "password": "password"
         }
     ],
 
     "p2p": {
-        "enabled": false,
+        "enabled": true,
         "host": "127.0.0.1",
-        "port": 19333,
+        "port": 8133,
         "disableTransactions": true
     },
 
